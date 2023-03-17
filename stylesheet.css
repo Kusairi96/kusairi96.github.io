@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* MEMBUAT HEADER*/
+.header {
+  background-color: #14140e;
+  height: 70px;
+  color: white;
+}
+.header-list li {
+  list-style: none;
+  float: left;
+  padding: 25px 22px;
+}
+.header-logo {
+  font-size: 20px;
+  float: left;
+  padding: 23px 45px;
+}
+/*MEMBUAT main*/
+.main {
+  padding: 100px 80px 100px 80px;
+}
+.copy-container {
+  text-align: center;
+}
+.copy-container h1 {
+  font-size: 100px;
+  margin-bottom: 10px;
+  letter-spacing: 10px;
+}
+.copy-container span {
+  color: rgb(255, 255, 0);
+}
+.copy-container h2 {
+  font-size: 50px;
+  margin-top: 20px;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+/* membuat Content */
+
+.content {
+  text-align: center;
+  background-color: #eaeaf1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+p {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+/* MEMBUAT MENENU PROJEK */
+.project-wrapper {
+  height: 580px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffff;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+}
+.projec {
+  float: left;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+/* Membuat form input */
+.contact-form {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #eaeaf1;
+}
+
+input,
+textarea {
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+  border-radius: 10px;
+}
+.contact-submit {
+  width: 30%;
+  background: rgb(235, 214, 121);
+}
+
+/*MEMBUAT FOOTER*/
+.footer {
+  background-color: #94949b;
+  height: 120px;
+  color: #ffff;
+  padding: 40px;
+}
+.footer-logo {
+  float: left;
+  font-size: 20px;
+}
+.footer-list {
+  float: right;
+}
+.footer-list li {
+  padding-bottom: 20px;
+  list-style: none;
+}
